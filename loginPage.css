@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Water+Brush&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(90deg,#e2e2e2,#c9d6ff)
+}
+
+.tittle {
+    font-family: 'Merriweather', serif;
+    font-size: 40px; /* Set the font size for the title */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the text horizontally */
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-top: -20px; /* Adjust as needed */
+    text-align: center; /* Center the text horizontally */
+    margin-right: 0; /* Remove conflicting margin-right */
+    margin-left: auto; /* This helps center if the width is constrained */
+    margin-right: auto; /* This helps center if the width is constrained */
+}
+
+
+.navbar{
+    background-color:transparent;
+    padding:10px 0;
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index:100;
+    margin:0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visibility */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Limit the width to 80% of the viewport */
+    margin: 0 auto; /* Center the navbar container */
+}
+
+/* Logo Styling */
+.navbar .logo {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #7494ec; /* Highlight color when hovering */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px; /* Add this line to create space between columns */
+}
+
+.column {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    flex: 1; /* Equal width columns */
+    width: 90px;
+    max-width: 300px; /* Max width for each column */
+}
+
+.column img {
+    width: 185px; /* Set a fixed width */
+    height: 185px; /* Set a fixed height to maintain uniformity */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    margin: 10px; /* Add some spacing */
+    display: block; /* Make the image block-level */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.login-options {
+    margin-top: 10px;
+}
+
+
+
+.login-option {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 95px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.login-option:hover {
+    background-color: #007bff;
+}
+
+.login-as {
+    color: #000000;
+    font-size: 20px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust this height as needed */
+}
+
+.admin-column {
+    margin-right: 0px; /* Adjust the right margin to move the admin column more to the right */
+    margin-left:20px;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    margin-top: 60px; /* Adds space below the navbar */
+}
+ .text{
+    font-size:32px;
+    margin-left:90px;
+ }

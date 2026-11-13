@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Land District of Pasir Mas</title>
+  
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Bungee+Spice&family=Itim&family=Poppins:wght@100..900&family=Sour+Gummy:wght@100..900&family=Varela+Round&family=Water+Brush&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Pictures/Logo.png" alt="Logo">
+        </div>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
+              </svg>
+            </a>
+          </li>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#social-media">Social Media</a></li>
+          <li><a href="loginPage.php">Login</a></li>
+        </ul>
+        <ul>
+            <div class="text">
+                <h2 class="text1">PEJABAT TANAH DAN</h2>
+                <h2 class="text2">JAJAHAN PASIR MAS</h2>
+            </div>
+          <li class="hideOnMobile"><a href="#banner">Home</a></li>
+          <li class="hideOnMobile"><a href="#about-us">About Us</a></li>
+          <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+          <li class="hideOnMobile"><a href="#social-media">S.Media</a></li>
+          <li class="hideOnMobile"><a href="loginPage.php">Login</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+<!-- Banner Section -->
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <img src="Pictures/ptjpm.jpg" alt="Land District Office Pasir Mas" class="banner-image">
+            <div class="banner-text">
+                <h1>Welcome to the Land District of Pasir Mas</h1>
+                <p>Developing Land, Ensuring the Welfare of the People</p>
+                <!-- Buttons -->
+                <a href="#about-us" class="btn">Learn More About Us</a>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Banner Section -->
+  <section id="about-us">
+    <div class="container">
+      <div class="row">
+        <h2>About Pasir Mas Land District</h2>
+        <p>The Land District of Pasir Mas, located in the state of Kelantan, Malaysia, is dedicated to providing efficient land administration and public service. We aim to serve our community through accessible services and a commitment to transparency.</p>
+        </div>
+      </div>
+</section>
+  
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="row">
+        <div class="service">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Land Survey</h3>
+          <p>Providing professional land survey services for accurate property mapping and registration.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-file-alt"></i>
+          <h3>Document Processing</h3>
+          <p>Assisting with land document registration, title issuance, and updates for property owners.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-users"></i>
+          <h3>Community Services</h3>
+          <p>We are committed to supporting the local community with services that enhance quality of life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+      <!-- Section Heading -->
+      <div class="section-heading3">
+        <h2>Contact</h2>
+      </div>
+  
+  
+      <!-- Cards Row -->
+      <div class="row">
+        <div class="cards-container">
+          <!-- Address Card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <!-- Front -->
+              <div class="flip-card-front">
+                <i class="fas fa-map-marker-alt fa-3x"></i>
+                <h3>Address</h3>
+              </div>
+              <!-- Back -->
+              <div class="flip-card-back">
+                <p>
+                  Kompleks Apam Putra, Bandar Baru Pasir Mas Lubok Jong, 17000 Pasir Mas, Kelantan Darul Naim.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+  
+          <!-- Phone Card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <!-- Front -->
+              <div class="flip-card-front">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number </h3>
+              </div>
+              <!-- Back -->
+              <div class="flip-card-back">
+                <p>Tel : 09 7917963</p>
+                <p>Faks : 09 7917706</p>
+              </div>
+            </div>
+          </div>
+  
+  
+          <!-- Email Card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <!-- Front -->
+              <div class="flip-card-front">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+              </div>
+              <!-- Back -->
+              <div class="flip-card-back">
+                <p>ptjpm@kelantan.gov.my</p>
+                <p>ptjpmas@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="social-media">
+    <div class="container">
+      <!-- Section Heading -->
+      <div class="section-heading4">
+        <h2>SOCIAL MEDIA</h2>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/PtjpmGov/?locale=ms_MY" target="_blank" class="facebook-icon">
+          <img src="Pictures/Facebook(1).png" class="fade-left">
+        </a>
+        <a href="https://www.instagram.com/pejabattanahpasirmas?igsh=MXRtaTRpcHFzNG9nZw==" target="_blank" class="instagram-icon">
+          <img src="Pictures/Insta.png" class="fade-left">
+        </a>
+        <a href="tel:09 7917963" target="_blank" class="phone-icon">
+          <img src="Pictures/phone.png" class="fade-left">
+        </a>
+        <a href="https://ptjpm.kelantan.gov.my/index.php/ms/" target="_blank" class="website-icon">
+          <img src="Pictures/website.png" class="fade-left">
+        </a>
+      </div>
+    </div>
+</section>
+
+ <!-- Footer -->
+ <footer>
+    <p>&copy; 2025 Pasir Mas Land District. All Rights Reserved.</p>
+  </footer>
+  <script>
+ function showSidebar() {
+  document.querySelector('.sidebar').style.display = 'block';
+}
+
+function hideSidebar() {
+  document.querySelector('.sidebar').style.display = 'none';
+}
+
+  </script>
+</body>
+</html>
