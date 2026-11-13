@@ -37,9 +37,20 @@
 
             <!-- Password -->
             <div class="input-box">
-                <input type="password" id="password" name="password" placeholder="Password" autocomplete="off">
-                <i class='bx bxs-lock-alt'></i>
-            </div>
+    <input type="password"
+           id="password"
+           name="password"
+           placeholder="Password"
+           autocomplete="off">
+
+    <button type="button"
+            class="password-toggle"
+            aria-label="Show password"
+            aria-pressed="false"
+            onclick="togglePassword(this)">
+        <i class="bx bx-hide" aria-hidden="true"></i>
+    </button>
+</div>
 
             <!-- Forgot password -->
             <div class="forgot-password">
