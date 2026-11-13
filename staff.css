@@ -172,3 +172,24 @@ a.sidebar-link:hover {
 
 
 @media (min-width: 768px) {}
+
+/* Paparkan submenu yang dibuka */
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown.show {
+    display: block !important;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+}
+
+/* Letakkan submenu kedua di sebelah menu induk */
+#sidebar:not(.expand) .sidebar-dropdown .sidebar-dropdown {
+    left: 100%;
+    top: 0;
+    z-index: 1100;
+}
+
+/* Kekalkan menu terbuka semasa digunakan dengan keyboard */
+#sidebar:not(.expand) .sidebar-item:focus-within
+> .has-dropdown + .sidebar-dropdown {
+    display: block;
+}
